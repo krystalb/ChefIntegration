@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2016-01-03",
-  "Description": "AWS CloudFormation Sample Template for WordPress_Chef: WordPress is web software you can use to create a beautiful website or blog. This template installs a highly available, scalable WordPress deployment using a multi-AZ (Availability Zone) Amazon RDS database instance for storage. It demonstrates using the AWS CloudFormation bootstrap scripts to deploy the Chef client and using Chef-client in local mode to deploy WordPress. **WARNING** This template creates an Amazon EC2 instance, an Elastic Load Balancing load balancer, and an Amazon RDS database instance. You will be billed for the AWS resources used if you create a stack from this template.",
+  "Description": "AWS CloudFormation Sample newTemplate for WordPress_Chef: WordPress is web software you can use to create a beautiful website or blog. This template installs a highly available, scalable WordPress deployment using a multi-AZ (Availability Zone) Amazon RDS database instance for storage. It demonstrates using the AWS CloudFormation bootstrap scripts to deploy the Chef client and using Chef-client in local mode to deploy WordPress. **WARNING** This template creates an Amazon EC2 instance, an Elastic Load Balancing load balancer, and an Amazon RDS database instance. You will be billed for the AWS resources used if you create a stack from this template.",
   "Parameters": {
     "KeyName": {
       "Description": "Name of an existing EC2 key pair to enable SSH access to the instances",
